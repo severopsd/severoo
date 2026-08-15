@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEVERO® — Agência de Marketing | Criamos marcas com estratégia</title>
+  <meta name="description" content="SEVERO® é uma agência de marketing focada em design, criação de sites, identidade visual e conteúdo. Conectamos ideias a resultados." />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <meta property="og:title" content="SEVERO® — Agência de Marketing" />
+  <meta property="og:description" content="Criamos marcas com estratégia. Design, sites, identidade visual e conteúdo." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Cursor personalizado -->
+  <div class="cursor" aria-hidden="true"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <img class="preloader__mark" src="assets/severo-logo.png" alt="" />
+  </div>
+
+  <!-- Navegação -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo" aria-label="SEVERO — página inicial">
+      <img src="assets/severo-logo.png" alt="SEVERO" />
+    </a>
+    <nav class="nav__links" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="nav__cta">Vamos conversar</a>
+    <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Menu mobile -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#trabalhos">Trabalhos</a>
+    <a href="#contato">Contato</a>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__meta hero__meta--left reveal">
+        <span>ESTRATÉGIA</span>
+        <span>DESIGN</span>
+        <span>PRESENÇA</span>
+        <span class="hero__plus">+</span>
+      </div>
+      <div class="hero__meta hero__meta--right reveal">
+        <span>CONECTAMOS</span>
+        <span>IDEIAS A</span>
+        <span>RESULTADOS</span>
+        <span class="hero__plus">+</span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="sr-only">SEVERO</span>
+        <img class="hero__logo line" src="assets/severo-logo.png" alt="" />
+      </h1>
+
+      <p class="hero__tag reveal">Criamos marcas com estratégia.</p>
+
+      <div class="hero__tags reveal">
+        <span>DESIGN</span><em>+</em><span>MARKETING</span><em>+</em><span>WEB</span>
+      </div>
+
+      <a href="#servicos" class="hero__scroll" aria-label="Rolar para baixo">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>MARKETING</span><i>◉</i><span>CRIAÇÃO DE SITES</span><i>◉</i><span>DESIGN</span><i>◉</i><span>IDENTIDADE VISUAL</span><i>◉</i><span>POSTS</span><i>◉</i>
+        <span>MARKETING</span><i>◉</i><span>CRIAÇÃO DE SITES</span><i>◉</i><span>DESIGN</span><i>◉</i><span>IDENTIDADE VISUAL</span><i>◉</i><span>POSTS</span><i>◉</i>
+      </div>
+    </div>
+
+    <!-- SERVIÇOS -->
+    <section class="services" id="servicos">
+      <div class="section-head reveal">
+        <span class="section-head__num">01</span>
+        <h2 class="section-head__title">O que fazemos</h2>
+        <p class="section-head__desc">Do conceito à execução. Cada projeto começa na estratégia e termina em resultado.</p>
+      </div>
+
+      <div class="services__list">
+        <article class="service reveal">
+          <span class="service__num">01</span>
+          <h3 class="service__name">Marketing</h3>
+          <p class="service__desc">Estratégia de posicionamento, campanhas e gestão de presença digital que geram resultado real.</p>
+          <span class="service__arrow">→</span>
+        </article>
+        <article class="service reveal">
+          <span class="service__num">02</span>
+          <h3 class="service__name">Criação de Sites</h3>
+          <p class="service__desc">Sites e landing pages rápidos, responsivos e feitos para converter — do layout ao código.</p>
+          <span class="service__arrow">→</span>
+        </article>
+        <article class="service reveal">
+          <span class="service__num">03</span>
+          <h3 class="service__name">Design</h3>
+          <p class="service__desc">Peças gráficas com propósito. Estética e clareza andando juntas em cada detalhe.</p>
+          <span class="service__arrow">→</span>
+        </article>
+        <article class="service reveal">
+          <span class="service__num">04</span>
+          <h3 class="service__name">Identidade Visual</h3>
+          <p class="service__desc">Logotipos e sistemas de marca consistentes que fazem sua empresa ser lembrada.</p>
+          <span class="service__arrow">→</span>
+        </article>
+        <article class="service reveal">
+          <span class="service__num">05</span>
+          <h3 class="service__name">Posts &amp; Conteúdo</h3>
+          <p class="service__desc">Conteúdo para redes sociais que mantém sua marca viva e coerente no feed.</p>
+          <span class="service__arrow">→</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about" id="sobre">
+      <div class="about__grid">
+        <div class="about__label reveal">
+          <span class="section-head__num">02</span>
+          <span>Sobre a SEVERO</span>
+        </div>
+        <div class="about__content">
+          <p class="about__big reveal">Uma agência que trata marca como <em>estratégia</em>, não como enfeite.</p>
+          <p class="about__text reveal">Na SEVERO® acreditamos que uma boa marca nasce da união entre design e propósito. Cada projeto é pensado para conectar ideias a resultados — do primeiro rascunho ao lançamento. Sem ruído, sem excesso: apenas o que faz sua empresa crescer.</p>
+          <div class="about__stats reveal">
+            <div class="stat"><strong data-count="100">0</strong><span>% dedicação por projeto</span></div>
+            <div class="stat"><strong data-count="5">0</strong><span>serviços integrados</span></div>
+            <div class="stat"><strong>∞</strong><span>ideias a executar</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRABALHOS -->
+    <section class="works" id="trabalhos">
+      <div class="section-head reveal">
+        <span class="section-head__num">03</span>
+        <h2 class="section-head__title">Como pensamos</h2>
+        <p class="section-head__desc">Um processo simples, direto e sem enrolação.</p>
+      </div>
+
+      <div class="works__grid">
+        <article class="work reveal">
+          <span class="work__tag">Passo 01</span>
+          <h3>Descoberta</h3>
+          <p>Entendemos seu negócio, seu público e o que torna sua marca única.</p>
+        </article>
+        <article class="work reveal">
+          <span class="work__tag">Passo 02</span>
+          <h3>Estratégia</h3>
+          <p>Definimos direção, tom e objetivos claros antes de qualquer pixel.</p>
+        </article>
+        <article class="work reveal">
+          <span class="work__tag">Passo 03</span>
+          <h3>Criação</h3>
+          <p>Design, site e conteúdo desenvolvidos com consistência total.</p>
+        </article>
+        <article class="work reveal">
+          <span class="work__tag">Passo 04</span>
+          <h3>Resultado</h3>
+          <p>Entrega, acompanhamento e ajustes para manter sua marca no topo.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO / CTA -->
+    <section class="contact" id="contato">
+      <p class="contact__pre reveal">Pronto para começar?</p>
+      <h2 class="contact__title reveal">Vamos criar<br />algo <span>memorável</span>.</h2>
+      <div class="contact__actions reveal">
+        <a class="btn btn--primary" href="https://instagram.com/severo.psd" target="_blank" rel="noopener">
+          Falar no Instagram
+        </a>
+        <a class="btn btn--ghost" href="https://tally.so/r/zxB5Zk">Responder Questionário</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="#top" class="footer__logo" aria-label="SEVERO — voltar ao topo">
+        <img src="assets/severo-logo.png" alt="SEVERO" />
+      </a>
+      <nav class="footer__links" aria-label="Rodapé">
+        <a href="https://instagram.com/severo.psd" target="_blank" rel="noopener">Instagram</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> SEVERO®. Todos os direitos reservados.</span>
+      <span>Criamos marcas com estratégia.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
